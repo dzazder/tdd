@@ -1,0 +1,8 @@
+C:\drive\projects\tdd\Calculator\Calculator\bin\Debug\netcoreapp2.1\Calculator.deps.json
+C:\drive\projects\tdd\Calculator\Calculator\bin\Debug\netcoreapp2.1\Calculator.dll
+C:\drive\projects\tdd\Calculator\Calculator\bin\Debug\netcoreapp2.1\Calculator.pdb
+C:\drive\projects\tdd\Calculator\Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.CoreCompileInputs.cache
+C:\drive\projects\tdd\Calculator\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInputs.cache
+C:\drive\projects\tdd\Calculator\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs
+C:\drive\projects\tdd\Calculator\Calculator\obj\Debug\netcoreapp2.1\Calculator.dll
+C:\drive\projects\tdd\Calculator\Calculator\obj\Debug\netcoreapp2.1\Calculator.pdb
