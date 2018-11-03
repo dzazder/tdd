@@ -82,5 +82,28 @@ namespace MixTests.Tests.Unit
             Assert.That(Person.WithPesel("89042711635"),
                 Is.EqualTo(Person.WithPesel("89042711635")).Using(comparer));
         }
+
+        [TestCaseSource("EvenNumbers")]
+        public void IsEven(int number)
+        {
+            Assert.That(number % 2, Is.Zero);
+        }
+
+        private static readonly int[] EvenNumbers = { 0, 2, 4, 6, 20, 40};
+
+        [TestCaseSource(nameof(AdditionCases))]
+        public void AdditionTest(int a, int b, int expectedResult)
+        {
+            Assert.That(a + b, Is.EqualTo(expectedResult));
+        }
+
+        private static IEnumerable<int[]> AdditionCases
+        {
+            get
+            {
+                yield return new[] { 2, 2, 4 };
+                yield return new[] { 1, -1, 0 };
+            }
+        }
     }
 }
